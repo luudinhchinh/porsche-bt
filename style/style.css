@@ -356,8 +356,12 @@ hr {
        padding-top: 50px;
     }
     .banner-text h1{
-        font-size: 30px;
+        font-size: 40px;
     }
+    .banner-text p{
+        font-size: 20px;
+     }
+
     #banner {
         box-sizing: border-box;
         width: 100%;
