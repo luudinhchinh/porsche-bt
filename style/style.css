@@ -353,7 +353,7 @@ hr {
 /*responsive*/
 @media only screen and (max-width:740px) {
     .banner-text{
-       padding-top: 100px;
+       padding-top: 50px;
     }
     .banner-text h1{
         font-size: 30px;
