@@ -15,24 +15,31 @@
     height: 100vh;
 }
 .logo {
-    width: 140px;
+    width: 180px;
     position: absolute;
-    top: 4%;
+    top: 2%;
     left: 10%;
 }
 .banner-text {
     text-align: center;
     color: rgb(246, 248, 248);
-    padding-top: 150px;
+    padding-top: 180px;
 }
 .banner-text h1 {
     font-size: 130px;
 }
 .banner-text p {
-    font-size: 30px;
+    font-size: 40px;
     font-style: italic;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
    
+}
+.banner-text span {
+    color: rgb(227, 204, 57);
+    text-shadow: #FC0 1px 0 10px;
+}
+.banner-text a {
+    color: #efefef;
 }
 /*
 .banner-bnt {
@@ -358,14 +365,16 @@ hr {
     .banner-text h1{
         font-size: 40px;
     }
-    .banner-text p{
+    .banner-text p  {
         font-size: 20px;
-     }
-
+    }
     #banner {
         box-sizing: border-box;
         width: 100%;
         height: 300px;
+    }
+    .logo {
+        width: 50px;
     }
     /**/
     .features{
@@ -385,11 +394,14 @@ hr {
     /**/
     .footer-left{
         flex-basis: 100%;
-        text-align: left;
+        text-align: center;
     }
     .footer-right{
         flex-basis: 100%;
-        text-align: right;
+        text-align: center;
+    }
+    .footer-right i{
+        display: none;
     }
     /**/
     #menubtn{
